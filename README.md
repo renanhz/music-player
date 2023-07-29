@@ -1,3 +1,3 @@
 # MusicPlayer
 
-Based on Soundnode project: https://github.com/Soundnode/soundnode-app
+Musci player based on Soundnode project: https://github.com/Soundnode/soundnode-app
