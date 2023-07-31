@@ -36,7 +36,7 @@
     margin-right: 16px;
 }
 
-.sidenav-item:hover{
+.sidenav-item:hover, .sidenav-active{
     color: #fff;
     cursor: pointer;
     background-color: #616161;

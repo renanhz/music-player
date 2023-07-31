@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ExploreModule } from './explore/explore.module';
+import { TopSongsModule } from './top-songs/top-songs.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ExploreModule } from './explore/explore.module';
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
-    ExploreModule
+    ExploreModule,
+    TopSongsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

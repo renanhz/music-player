@@ -1,16 +1,18 @@
 <nav class="sidenav-container">
   <div class="sidenav">
     <ul>
-      <a routerLink="/explore">
+      <a routerLink="/explore" routerLinkActive="sidenav-active">
         <li class="sidenav-item" >
           <fa-icon [icon]="faMagnifyingGlass"></fa-icon>
           <span>Explore</span>
         </li>
       </a>
-      <li class="sidenav-item">
-        <fa-icon [icon]="faTrophy"></fa-icon>
-        <span>Top 50</span>
-      </li>
+      <a routerLink="/top-songs" routerLinkActive="sidenav-active">
+        <li class="sidenav-item">
+          <fa-icon [icon]="faTrophy"></fa-icon>
+          <span>Top 50</span>
+        </li>
+      </a>
       <li class="sidenav-item">
         <fa-icon [icon]="faHeart"></fa-icon>
         <span>Liked Songs</span>
