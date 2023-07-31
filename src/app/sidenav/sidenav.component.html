@@ -1,20 +1,27 @@
-<div class="sidenav-container">
-  <ul>
-    <li class="sidenav-item">
-      <fa-icon [icon]="faTrophy"></fa-icon>
-      <span>Top 50</span>
-    </li>
-    <li class="sidenav-item">
-      <fa-icon [icon]="faMagnifyingGlass"></fa-icon>
-      <span>Explore</span>
-    </li>
-    <li class="sidenav-item">
-      <fa-icon [icon]="faHeart"></fa-icon>
-      <span>Liked Songs</span>
-    </li>
-    <li class="sidenav-item">
-      <fa-icon [icon]="faList"></fa-icon>
-      <span>Playlists</span>
-    </li>
-  </ul>
-</div>
+<nav class="sidenav-container">
+  <div class="sidenav">
+    <ul>
+      <a routerLink="/explore">
+        <li class="sidenav-item" >
+          <fa-icon [icon]="faMagnifyingGlass"></fa-icon>
+          <span>Explore</span>
+        </li>
+      </a>
+      <li class="sidenav-item">
+        <fa-icon [icon]="faTrophy"></fa-icon>
+        <span>Top 50</span>
+      </li>
+      <li class="sidenav-item">
+        <fa-icon [icon]="faHeart"></fa-icon>
+        <span>Liked Songs</span>
+      </li>
+      <li class="sidenav-item">
+        <fa-icon [icon]="faList"></fa-icon>
+        <span>Playlists</span>
+      </li>
+    </ul>
+  </div>
+  <div class="sidenav-content">
+    <router-outlet></router-outlet>
+  </div>
+</nav>
