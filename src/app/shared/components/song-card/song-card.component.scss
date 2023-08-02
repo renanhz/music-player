@@ -1,0 +1,44 @@
+.song-card-container {
+    width: fit-content;
+    max-width: fit-content;
+}
+
+.song-title {
+    margin: 0;
+    margin-top: 4px;
+    font-weight: 500;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.song-album-area {
+    margin-top: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.song-album-item {
+    color: #E0E0E0;
+}
+
+.song-card-actions-bar {
+    margin-top: 4px;
+    display: flex;
+
+}
+
+.song-card-actions-bar button {
+    border-radius: 5px;
+    padding: 0.5em;
+    background-color: transparent;
+    margin-right: 10px;
+
+    fa-icon {
+        color: #E0E0E0;
+        font-size: 1.2em;
+    }
+}
+
+.song-card-actions-bar button:hover {
+    background-color: #212121;
+}

@@ -1,0 +1,18 @@
+<div class="song-card-container">
+    <img [src]="songData.albumCoverImage" style="height: 200px; width: 200px;"/>
+    <div class="song-card-info">
+        <p class="song-title"><span>{{songData.artist}} - {{songData.title}}</span></p>
+        <div class="song-album-area">
+            <span class="song-album-item">{{songData.album}}</span>
+            <span class="song-album-item">{{songData.songDuration}}</span>
+        </div>
+        <div class="song-card-actions-bar">
+            <button>
+                <fa-icon [icon]="faHeart"/>
+            </button>
+            <button>
+                <fa-icon [icon]="faBookmark"/>
+            </button>
+        </div>
+    </div>
+</div>
