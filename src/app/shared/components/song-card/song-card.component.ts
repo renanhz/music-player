@@ -11,13 +11,5 @@ export class SongCardComponent {
   faHeart = faHeart;
   faBookmark = faBookmark;
 
-  @Input() songData: Song = {
-    title: 'ABC',
-    artist: 'SINGER',
-    album: 'SONGS',
-    year: 2023,
-    genre: 'ROCK',
-    albumCoverImage: 'assets/images/dark-side-moon.svg',
-    songDuration: '3:10'
-  };
+  @Input() songData: Song = {};
 }

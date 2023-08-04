@@ -1,3 +1,7 @@
 <div class="explore-container">
-    <app-song-card></app-song-card>
+    <div class="song-row">
+        <div class="song-container" *ngFor="let song of songList">
+            <app-song-card [songData]="song"></app-song-card>
+        </div>
+    </div>
 </div>
